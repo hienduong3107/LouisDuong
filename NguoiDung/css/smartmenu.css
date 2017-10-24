@@ -1,0 +1,46 @@
+﻿body {
+}
+
+.smartmenu{
+float: right; padding-top: 13px;
+}
+
+.smartmenu li ul {
+display:none; padding-left: 34px; 
+}
+
+.smartmenu ul, .smartmenufloaty ul{
+list-style: none; list-style-position: outside; font-size: 17px; font-family: 'Arial', cursive; font-weight: 400;
+display:block;
+}
+.smartmenu ul li a {
+ color: #d5d4d4;}
+
+.smartmenufloaty {
+position: absolute;
+border: none;
+width: auto;
+height: auto;
+left: 0px;
+top: 0px;
+z-index: 1000;
+}
+
+
+.smartmenufloaty li {
+background-image:url(images/smartmenuli.png);
+border-bottom:1px solid #333;
+padding: 1px 8px 1px 8px;
+width:auto;
+}
+.smartmenufloaty li.last {
+border: none;
+}
+.smartmenufloaty a {
+font-size: 17px; font-family: 'Arial', cursive; font-weight: 400; color: #d5d4d4;
+}
+
+.smartmenufloaty a:hover {
+color: #fff; text-decoration: none;
+}
+

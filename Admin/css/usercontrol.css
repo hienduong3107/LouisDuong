@@ -1,0 +1,51 @@
+﻿
+
+.gridview_display {border:2px solid Gray; border-spacing:3px;width:100%;}
+.gridview_display tr{height:30px; text-align:justify; vertical-align:text-bottom;}
+.gridview_display tr:first-child{background-color:Gray;font-family:Arial;font-weight:bold;color:Black;}
+.gridview_display tr:last-child{background-color:Gray;font-family:Arial;font-weight:bold;color:Black;text-align:center;}
+.gridview_display td{width:22%;}
+.gridview_display td:last-child{width:12%;}
+
+.gridview_display_2 {border:2px solid Gray; border-spacing:3px;width:100%;}
+.gridview_display_2 tr{height:30px; text-align:justify; vertical-align:text-bottom;}
+.gridview_display_2 tr:first-child{background-color:Gray;font-family:Arial;font-weight:bold;color:Black;}
+.gridview_display_2 tr:last-child{background-color:Gray;font-family:Arial;font-weight:bold;color:Black;text-align:center;}
+.gridview_display_2 td{width:auto;}
+.gridview_display_2 td:last-child{}
+
+.tb_add{width:100%;font-family:Tahoma;}
+.tb_add td{height:50px;}
+.tb_add input{background: url(../images/forms/form_inp.gif) no-repeat;border:none;color:#393939;height:25px;padding:6px 6px 0 6px;width:186px;}
+
+    .myButton {
+        
+        -moz-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+        box-shadow:inset 0px 1px 0px 0px #dcecfb;
+        
+        background-color:#393939;
+        
+        display:inline-block;
+        color:#ffffff;
+        font-family:Tahoma;
+        font-size:15px;
+        font-weight:800;
+        padding:8px 24px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #528ecc;
+        
+    }
+    .myButton:hover {
+        
+        background-color:Black;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+
+.paging{width:100%;margin:auto;}
+.paging_tb{width:auto;margin:auto;color:#6f6f6f}
+.menu td{width:33%;height:100px;text-align:center}
+.menu{width:100%}

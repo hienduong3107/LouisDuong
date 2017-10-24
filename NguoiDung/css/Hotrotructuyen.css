@@ -1,0 +1,39 @@
+﻿      ul#hotrotructuyen {
+      position: fixed;
+      margin: 18% 0 0 0;
+      padding: 0px;
+      top: 0px;
+      list-style: none;
+      z-index:1000;
+      width:auto;
+     
+      }
+      ul#hotrotructuyen li {
+      margin-left:-190px;  
+          
+      }
+      ul#hotrotructuyen li div#main_hotro {
+      
+      display: block;
+      float:left;
+	  color: #d5d4d4;font-size: 17px; font-family: 'Arial', cursive; font-weight: 400;text-align:left;
+      margin-top: -2px;
+      height:100px;
+      width:290px;
+      background-repeat:no-repeat;
+      background-position:50% 10px;
+      background-color:#000000;      
+      -webkit-border-bottom-right-radius: 10px;
+      -webkit-border-top-right-radius: 10px;      
+      text-decoration:none;
+      text-align:center;
+      opacity: 0.85;
+      filter:progid:DXImageTransform.Microsoft.Alpha(opacity=85);      
+      }
+      div#span_hotro{float:right; margin-top:10%; text-align:right; margin-right:10px; font-size: 17px; font-family: 'Arial', cursive; font-weight: 400; color: #d5d4d4;}
+      div#view_hotro{float:left; margin-top:11%; margin-left:120px; text-align:left; font-size:13px; font-style:italic;}
+      div#span_hotro a:hover{text-decoration:none;}
+      div#view_hotro a:hover{text-decoration:none;}
+      
+      
+  
